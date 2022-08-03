@@ -40,7 +40,7 @@ namespace MongoDB.Driver.Core.Misc
         private static readonly Feature __aggregateLet = new Feature("AggregateLet", WireVersion.Server36);
         private static readonly Feature __aggregateMerge = new Feature("AggregateMerge", WireVersion.Server42);
         private static readonly Feature __aggregateOut = new Feature("AggregateOut", WireVersion.Server26);
-        private static readonly Feature __aggregateOutOnSecondary = new Feature("AggregateOutOnSecondary", WireVersion.Server50);
+        private static readonly Feature __aggregateOutOnSecondary = new Feature("AggregateOutOnSecondary", WireVersion.Server44);
         private static readonly Feature __aggregateOutToDifferentDatabase = new Feature("AggregateOutToDifferentDatabase", WireVersion.Server44);
         private static readonly Feature __aggregateToString = new Feature("AggregateToString", WireVersion.Server40);
         private static readonly Feature __aggregateUnionWith = new Feature("AggregateUnionWith", WireVersion.Server44);
